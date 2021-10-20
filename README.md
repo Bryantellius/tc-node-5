@@ -20,13 +20,20 @@ This project is defined as it is built. It is meant for practice with the intent
 1. Run `npm run dev` in your terminal to start the project development server locally
 2. Visit [http://localhost:3000](http://localhost:3000) in your browser to view the output
 
-### First-Time Contributor
+### First Contribution
 
 1. Create a new branch with your name
 2. Append your name and github profile link to the [contributors](#contributors) list below
    - In markdown, a link is denoted by the following syntax: `[alt text](link url)`
 3. Commit your update, and push your branch back to the remote repository
 4. The moderator will review and merge your pull requests
+
+### Second Contribution
+
+1. Create a html file with your _github username_ as the name of the file, i.e `bryantellius.html`
+2. Place the file at `src/client/views`
+3. Stage, Commit, and Push your changes
+4. Open a pull request on GitHub
 
 ## Contributors
 
