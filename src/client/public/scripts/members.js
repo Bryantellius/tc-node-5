@@ -26,7 +26,9 @@ fetch("/api/v1/members")
       cardsContainer.innerHTML += `<div class="cards-item">
         <div class="avatar appear">
             <img class="avatar-image" src=${
-              m.image_url ? "assets/" + m.image_url : "assets/user.svg"
+              m.image_url
+                ? "assets/images/" + m.image_url
+                : "assets/svg/user.svg"
             } />
         </div>
         <hr />
@@ -34,13 +36,13 @@ fetch("/api/v1/members")
         <p class="subtitle is-6 has-text-white">${m.title || "Member"}</p>
         <div class="d-flex justify-content-around align-items-center">
         <a target="_blank" href="${m.github_url}">
-          <img class="social-link" alt="GitHub" src="assets/github.svg" />
+          <img class="social-link" alt="GitHub" src="assets/svg/github.svg" />
         </a>
         <a target="_blank" href="${m.linkedin_url}">
-          <img class="social-link" alt="LinkedIn" src="assets/linkedin.svg" />
+          <img class="social-link" alt="LinkedIn" src="assets/svg/linkedin.svg" />
         </a>
         <a target="_blank" href="${m.page_url}">
-          <img class="social-link" alt="Personal Page" src="assets/compass.svg" />
+          <img class="social-link" alt="Personal Page" src="assets/svg/compass.svg" />
         </a>
         </div>
     </div>`;
