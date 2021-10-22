@@ -19,6 +19,14 @@ app.use(express.static(join(__dirname, "../client/public")));
 
 app.use(router);
 
+app.use("*", (req, res, next) => {
+  try {
+    res.sendFile(join(__dirname, "../client/views/notfound.html"));
+  } catch (e) {
+    next(e);
+  }
+});
+
 app.use((err, req, res, next) => {
   res
     .status(500)

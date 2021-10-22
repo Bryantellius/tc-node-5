@@ -35,13 +35,13 @@ fetch("/api/v1/members")
         <h2 class="title is-4 has-text-white">${m.name || "Unknown"}</h2>
         <p class="subtitle is-6 has-text-white">${m.title || "Member"}</p>
         <div class="d-flex justify-content-around align-items-center">
-        <a target="_blank" href="${m.github_url}">
+        <a target="_blank" href="https://github.com/${m.github_username}">
           <img class="social-link" alt="GitHub" src="assets/svg/github.svg" />
         </a>
         <a target="_blank" href="${m.linkedin_url}">
           <img class="social-link" alt="LinkedIn" src="assets/svg/linkedin.svg" />
         </a>
-        <a target="_blank" href="${m.page_url}">
+        <a href="/members/${m.github_username}">
           <img class="social-link" alt="Personal Page" src="assets/svg/compass.svg" />
         </a>
         </div>

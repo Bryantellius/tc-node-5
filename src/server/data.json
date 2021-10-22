@@ -5,63 +5,63 @@
       "title": "Author",
       "image_url": "undefinedBen.png",
       "linkedin_url": "https://www.linkedin.com/in/benjaminrbryant/",
-      "github_url": "https://github.com/Bryantellius",
+      "github_username": "Bryantellius",
       "codewars_username": "Bryantellius"
     },
     {
       "name": "John Ward",
       "title": "Author",
       "image_url": "",
-      "github_url": "https://github.com/johnward01",
+      "github_username": "johnward01",
       "codewars_username": ""
     },
     {
       "name": "Kevin Wong",
       "title": "Member",
       "image_url": "",
-      "github_url": "https://github.com/devkev1",
+      "github_username": "devkev1",
       "codewars_username": ""
     },
     {
       "name": "Keith Petrshyn",
       "title": "Member",
       "image_url": "",
-      "github_url": "https://github.com/KeithPeter",
+      "github_username": "KeithPeter",
       "codewars_username": ""
     },
     {
       "name": "Tanner Voss",
       "title": "Member",
       "image_url": "",
-      "github_url": "https://github.com/TannerVoss",
+      "github_username": "TannerVoss",
       "codewars_username": ""
     },
     {
       "name": "Joshua Burns",
       "title": "Member",
       "image_url": "",
-      "github_url": "https://github.com/joshua-desu",
+      "github_username": "joshua-desu",
       "codewars_username": ""
     },
     {
       "name": "Soma Alpha",
       "title": "Member",
       "image_url": "",
-      "github_url": "https://github.com/Soma-Alpha",
+      "github_username": "Soma-Alpha",
       "codewars_username": ""
     },
     {
       "name": "Jeff Titak",
       "title": "Member",
       "image_url": "",
-      "github_url": "https://github.com/jtitak06",
+      "github_username": "jtitak06",
       "codewars_username": ""
     },
     {
       "name": "Amoriss",
       "title": "Member",
       "image_url": "",
-      "github_url": "https://github.com/amoriss",
+      "github_username": "amoriss",
       "codewars_username": ""
     }
   ]

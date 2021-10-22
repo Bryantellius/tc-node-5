@@ -19,6 +19,14 @@ router.get("/members", (req, res, next) => {
   }
 });
 
+router.get("/members/bryantellius", (req, res, next) => {
+  try {
+    res.sendFile(join(__dirname, "../../client/views/bryantellius.html"));
+  } catch (e) {
+    next(e);
+  }
+});
+
 router.get("/api/v1/members", (req, res, next) => {
   try {
     res.sendFile(join(__dirname, "../data.json"));
