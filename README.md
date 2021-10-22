@@ -46,6 +46,7 @@ This project is defined as it is built. It is meant for practice with the intent
 - [Soma Alpha](https://github.com/Soma-Alpha)
 - [Jeff Titak](https://github.com/jtitak06)
 - [ziaul Chowdhury](https://github.com/zianyc)
+- [Amoriss Mallett &#10084;](https://github.com/amoriss)
 
 ## Maintenance
 
