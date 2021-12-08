@@ -5,7 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon src/server/server.js",
-    "test": "jest"
+    "test": "jest",
+    "start": "src/server/server.js"
   },
   "repository": {
     "type": "git",
