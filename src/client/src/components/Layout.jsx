@@ -9,7 +9,9 @@ function Layout(props) {
         <Routes>
           {props.routes.map((route, idx) => {
             return (
-              <Route key={idx} element={route.element} path={route.path} />
+              <Route key={idx} element={route.element} path={route.path}>
+                {route.children}
+              </Route>
             );
           })}
         </Routes>

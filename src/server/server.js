@@ -30,7 +30,10 @@ app.use("*", (req, res, next) => {
 app.use((err, req, res, next) => {
   res
     .status(500)
-    .json({ err, server_msg: "Something went wrong on the server :(" });
+    .json({
+      name: err.name || "Unknown error",
+      server_msg: err.message || "Something went wrong on the server :(",
+    });
 });
 
 app.listen(config.port || 3000, () =>
