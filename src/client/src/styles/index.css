@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 
-.root {
+#home {
   background-image: url(../assets/svg/clouds.svg);
   background-attachment: fixed;
   background-size: cover;

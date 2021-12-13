@@ -17,11 +17,11 @@ app.use(morgan("dev"));
 
 app.use(express.static(join(__dirname, "../client/public")));
 
-app.use(router);
+app.use("/api/v1", router);
 
 app.use("*", (req, res, next) => {
   try {
-    res.sendFile(join(__dirname, "../client/views/notfound.html"));
+    res.status(404).sendFile(join(__dirname, "../client/views/notfound.html"));
   } catch (e) {
     next(e);
   }
@@ -34,7 +34,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(config.port || 3000, () =>
-  console.log(
-    "Server listening on port: " + (isNaN(config.port) ? 3000 : config.port)
-  )
+  console.log("Server listening on port: " + (config.port || 5000))
 );
