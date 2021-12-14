@@ -13,7 +13,7 @@ function Docs(props) {
       console.log(data);
       setArticles(data);
     } catch (error) {
-      alert(error.message)
+      alert(error.message);
     }
   }
 
@@ -24,7 +24,7 @@ function Docs(props) {
   return (
     <div class="docs-container">
       <div class="docs-container-half">
-        <img class="logo" src={logo} alt="TrueCoders' Company Logo" />
+        <h2>Learn</h2>
         <ul class="sidenav">
           {articles.map((a) => (
             <li>

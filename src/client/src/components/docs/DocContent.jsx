@@ -1,12 +1,13 @@
 import Markdown from "markdown-to-jsx";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { serverUrl } from "../../data/values";
 
 function DocContent(props) {
   let [article, setArticle] = useState({ content: "" });
 
   let { slug } = useParams();
+  let location = useLocation();
 
   async function fetchArticle() {
     try {
@@ -21,7 +22,7 @@ function DocContent(props) {
 
   useEffect(() => {
     fetchArticle();
-  }, []);
+  }, [location.pathname]);
 
   return (
     <div class="docs-container-half">
